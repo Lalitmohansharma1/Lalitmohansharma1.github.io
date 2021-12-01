@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tasks </title>
+        <script>
+            document.addEventListener('DOmContentLoaded',function(){
+                document.querySelector('form').onsubmit= function(){
+                    const tasks =document.querySelector('#task').value;
+
+                    const li = document.createElement('li');
+                    li.innerHTML = taks;
+
+                    document.querySelector('#task')
+
+                    return false;
+
+                }
+            })
+        </script>
+    </head>
+    <body>
+        <h1>add tasks</h1>
+        <ul id="tasks"></ul>
+        <form>
+            <input  id="task"  placeholder="New tasks" type="text">
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
