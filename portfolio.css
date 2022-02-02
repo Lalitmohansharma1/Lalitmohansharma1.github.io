@@ -1,9 +1,11 @@
-
+body{
+    padding: 40px;
+}
 .sticky{
     /* position: -webkit-sticky; */
     position: sticky;
     top: 0;
-    background-color: #666;
+    background-color:white;
     padding: 40px;
     font-size: 25px;
 }
@@ -11,7 +13,7 @@
     width: 150px;
     height: 40px;;
     border: none;
-    background-color: #666;
+    background-color: white;
     font-size: 20px;
     font-weight: 500;
     line-height: 1;
@@ -22,5 +24,26 @@
   
 .btn:hover {
     transform: translateY(-10px);
+}
+
+.btn1 {
+    width: 150px;
+    height: 40px;;
+    border: none;
+    background-color: lightyellow;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}
+#contactme{
+    background-color: lightyellow;
+    padding: 40px;
+    font-size: 25px;
+}
+.welcome{
+    text-align: center;
+}
+.portfolio{
+    text-align: center;
 }
  
