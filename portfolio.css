@@ -1,17 +1,19 @@
 
 .sticky{
     /* position: -webkit-sticky; */
-    position: sticky;
+    position: fixed;
+    margin: auto;
+    padding: 20px;
     top: 0;
-    background-color:white;
-    padding: 40px;
+    background:transparent;
     font-size: 25px;
+    right: 250px;
 }
 .btn {
-    width: 150px;
+    width: 120px;
     height: 40px;;
     border: none;
-    background-color: white;
+    background: transparent;
     font-size: 20px;
     font-weight: 500;
     line-height: 1;
@@ -57,3 +59,10 @@
     font-size: 100px;
 }
 
+
+
+
+
+.trash{
+    color: white;
+}
