@@ -4,11 +4,11 @@
     position: fixed;
     margin: auto;
     padding: 20px;
-    top: 0;
+    width: 50%;
     background:transparent;
-    font-size: 25px;
-    right: 250px;
-}
+
+ }
+
 .btn {
     width: 120px;
     height: 40px;;
@@ -24,7 +24,7 @@
   
 .btn:hover {
     transform: translateY(-10px);
-}
+} 
 
 .btn1 {
     width: 150px;
@@ -34,7 +34,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 1;
-}
+}  
 #contactme{
     background-color: lightyellow;
     padding: 40px;
