@@ -1,0 +1,68 @@
+
+.sticky{
+    /* position: -webkit-sticky; */
+    position: fixed;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    background:transparent;
+
+ }
+
+.btn {
+    width: 120px;
+    height: 40px;;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}
+.btn {
+    transition: transform 250ms;
+}
+  
+.btn:hover {
+    transform: translateY(-10px);
+} 
+
+.btn1 {
+    width: 150px;
+    height: 40px;;
+    border: none;
+    background-color: lightyellow;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}  
+#contactme{
+    background-color: lightyellow;
+    padding: 40px;
+    font-size: 25px;
+}
+.welcome{
+    text-align: center;
+}
+.portfolio{
+    text-align: center;
+}
+#education{
+    font-size: 100px;
+}
+#intrests{
+    font-size: 100px;
+}
+#skills{
+    font-size: 100px;
+}
+#work{
+    font-size: 100px;
+}
+
+
+
+
+
+.trash{
+    color: white;
+}
