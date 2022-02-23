@@ -1,22 +1,30 @@
 
-.sticky{
-    /* position: -webkit-sticky; */
-    position: fixed;
-    margin: auto;
-    padding: 20px;
-    width: 50%;
-    background:transparent;
+#sticky{
 
- }
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: end;
+    color: white;
+    width: 100%;
+    /* padding: 0px; */
+    background: transparent;
+    z-index: 100;
+    overflow: hidden;
+    margin: 20px;
+    height: 140px;
+}
+
 
 .btn {
-    width: 120px;
-    height: 40px;;
+    
+    width: 160px;
+    height: 40px;
     border: none;
     background: transparent;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1;
+    
 }
 .btn {
     transition: transform 250ms;
@@ -25,9 +33,28 @@
 .btn:hover {
     transform: translateY(-10px);
 } 
+.btn2 {
+    
+    width: 200px;
+    height: 40px;
+    border: none;
+    text-align:start;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.btn2 {
+    transition: transform 250ms;
+}
+  
+.btn2:hover {
+    transform: translateY(-10px);
+} 
+
 
 .btn1 {
-    width: 150px;
+    width: 140px;
     height: 40px;;
     border: none;
     background-color: lightyellow;
@@ -35,32 +62,93 @@
     font-weight: 500;
     line-height: 1;
 }  
-#contactme{
-    background-color: lightyellow;
-    padding: 40px;
-    font-size: 25px;
+@media (min-width:701px) {
+    #contactme{
+        display: flex;
+        /* flex-wrap: wrap; */
+        background-color: lightyellow;
+        padding: 20px;
+        margin: auto;
+    }   
+    #href {
+        font-size: 25px;
+    }
+    #thanks{
+        text-align: end;
+        width: 1000px;
+        font-size: 25px;
+    }
 }
-.welcome{
+@media (max-width:700px) {
+    #contactme{
+        display: flex;
+        flex-wrap: wrap;
+        background-color:lightyellow;
+        padding: 20px;
+        margin: auto;
+        width: auto;
+    }
+    #href {
+        font-size: 25px;
+    }
+    #thanks{
+        text-align: center;
+        width: 320px;
+        font-size: 25px;
+        padding: 20px;
+        
+    }
+}
+/* .welcome{
     text-align: center;
 }
 .portfolio{
     text-align: center;
-}
-#education{
-    font-size: 100px;
-}
-#intrests{
-    font-size: 100px;
-}
-#skills{
-    font-size: 100px;
+} */
+#container{
+    display: flex;
+    flex-wrap: wrap;
 }
 #work{
+    display: flex;
+    flex-wrap: wrap;
+}
+#adiv {
     font-size: 100px;
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+    text-align: center;
+}
+#content{
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+    text-align: center;
 }
 
 
-
+#intro{
+    display: flex;
+    flex-wrap: wrap;
+}
+#intro >div {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+/* #left{ 
+    width: 50%;
+    float: left;
+    font-size: 200px;
+}
+#right{
+    width: 50%;
+    float:right;
+    font-size: 200px; 
+} */
 
 
 .trash{
